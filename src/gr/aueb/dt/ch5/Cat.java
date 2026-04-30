@@ -4,6 +4,10 @@ public class Cat implements ISpeakable {
 
     private String name;
 
+    public Cat(){
+
+    }
+
     @Override
     public void speak() {
         System.out.println("Meow");
