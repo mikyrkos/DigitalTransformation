@@ -1,15 +1,14 @@
 package gr.aueb.dt.ch4;
 
-public class Point2D extends Point{
-
+public class Point2D extends Point {
     private double y;
 
-    public Point2D (){
-//        super();  //x = 0
-//        y = 0;    //y = 0
+    public Point2D() {
+        // super();        // x = 0;
+        // y = 0;          // y = 0
     }
 
-    public Point2D (double x, double y){
+    public Point2D(double x, double y) {
         super(x);
         this.y = y;
     }
