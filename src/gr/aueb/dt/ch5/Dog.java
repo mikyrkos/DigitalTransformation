@@ -1,11 +1,10 @@
 package gr.aueb.dt.ch5;
 
 public class Dog implements ISpeakable {
-
     private String name;
     private int age;
 
-    public Dog(){
+    public Dog() {
 
     }
 
@@ -32,8 +31,6 @@ public class Dog implements ISpeakable {
 
     @Override
     public void speak() {
-        System.out.println("Woof!");
+        System.out.println("Woof");
     }
-
-
 }

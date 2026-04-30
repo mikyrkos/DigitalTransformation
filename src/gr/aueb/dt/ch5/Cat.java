@@ -1,16 +1,10 @@
 package gr.aueb.dt.ch5;
 
 public class Cat implements ISpeakable {
-
     private String name;
 
-    public Cat(){
+    public Cat() {
 
-    }
-
-    @Override
-    public void speak() {
-        System.out.println("Meow");
     }
 
     public Cat(String name) {
@@ -25,5 +19,8 @@ public class Cat implements ISpeakable {
         this.name = name;
     }
 
-
+    @Override
+    public void speak() {
+        System.out.println("Meow");
+    }
 }

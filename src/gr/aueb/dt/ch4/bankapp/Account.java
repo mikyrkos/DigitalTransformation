@@ -12,7 +12,7 @@ public class Account {
     private String ssn;
     private double balance;
 
-    public Account{
+    public Account () {
 
     }
 
